@@ -1,10 +1,10 @@
-import { TenPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('ten App', () => {
-  let page: TenPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new TenPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
